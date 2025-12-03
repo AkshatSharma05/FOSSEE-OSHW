@@ -18,7 +18,7 @@ static const char *TAG = "example";
 /* Use project configuration menu (idf.py menuconfig) to choose the GPIO to blink,
    or you can edit the following line and set a number here.
 */
-#define BLINK_GPIO 2
+#define BLINK_GPIO 13
 #define CONFIG_BLINK_PERIOD 1000
 
 static uint8_t s_led_state = 0;
@@ -32,9 +32,9 @@ static void blink_led(void)
 static void configure_led(void)
 {
     ESP_LOGI(TAG, "Example configured to blink GPIO LED!");
-    gpio_reset_pin(BLINK_GPIO);
+    gpio_reset_pin(2);
     /* Set the GPIO as a push/pull output */
-    gpio_set_direction(BLINK_GPIO, GPIO_MODE_OUTPUT);
+    gpio_set_direction(2, GPIO_MODE_OUTPUT);
 }
 
 void app_main(void)

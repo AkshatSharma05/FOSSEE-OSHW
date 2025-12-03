@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/akshat/projects/fossee/sensor/build/CMakeFiles/bootloader
+/home/akshat/projects/fossee/sensor/build/CMakeFiles/bootloader.rule
+/home/akshat/projects/fossee/sensor/build/CMakeFiles/bootloader-complete.rule
+/home/akshat/projects/fossee/sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/akshat/projects/fossee/sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/akshat/projects/fossee/sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/akshat/projects/fossee/sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/akshat/projects/fossee/sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/akshat/projects/fossee/sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/akshat/projects/fossee/sensor/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
