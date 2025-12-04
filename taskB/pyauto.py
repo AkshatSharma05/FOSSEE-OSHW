@@ -2,7 +2,7 @@
 import subprocess, time, sys, threading, os, pty
 
 FIRMWARE = "firmware.bin"
-SCRIPT = "main.py"
+SCRIPT = "temp.py"
 
 # Create a pseudo-terminal pair
 master, slave = pty.openpty()
